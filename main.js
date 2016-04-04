@@ -143,9 +143,9 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 	/* -- single variables -- */
 
-Favicon_URL = 'http://i.imgur.com/UGTUYfP.png';
+Favicon_URL = '//i.imgur.com/UGTUYfP.png';
 
-MiniLogo_URL = 'http://i.imgur.com/UGTUYfP.png';
+MiniLogo_URL = '//i.imgur.com/UGTUYfP.png';
 
 ChannelName_Caption = 'Pravox VARIETY';
 
@@ -161,7 +161,7 @@ AttentionBar_URL = '';
 
 ChannelAnnouncement_Title = 'Administration Message';
 
-TitleIcon_URL = 'http://i.imgur.com/UGTUYfP.png';
+TitleIcon_URL = '//i.imgur.com/UGTUYfP.png';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
@@ -187,7 +187,7 @@ ExternalScript_URL = '';
 
 HeaderDropMenu_Array = [
 ['Pravox Networks', ''],
-['Home', 'http://pravox.net'],
+['Home', 'https://pravox.net'],
 ['6irc Synchtube', 'http://synchtube.6irc.net/'],
 ['Powered by:', ''],
 ['CyTube', 'https://github.com/calzoneman/sync'],
@@ -195,7 +195,7 @@ HeaderDropMenu_Array = [
 ];
 
 MOTDAutoLogo_Array = [
-'https://pravox.net/img/logos/pravox-variety-logo.png',
+'//pravox.net/img/logos/pravox-variety-logo.png',
 ];
 
 MOTDTabs_Array = [
@@ -286,10 +286,10 @@ CustomRightFooter_HTML = '';
 
 ChannelThemeURL = 'https://dl.dropboxusercontent.com/s/l1qoep4su4xn5qz/chinska.css';
 
-ThemesCSS = [
-['Kobato', 'https://dl.dropboxusercontent.com/s/1r3twlb0loipybw/kobato.css'],
-['Celadon', 'https://dl.dropboxusercontent.com/s/iwarwhhph1ti2ek/celadon.css'],
-];
+//ThemesCSS = [
+//['Kobato', 'https://dl.dropboxusercontent.com/s/1r3twlb0loipybw/kobato.css'],
+//['Celadon', 'https://dl.dropboxusercontent.com/s/iwarwhhph1ti2ek/celadon.css'],
+//];
 
 TopUserLogo = [
 ['cytube plus', 'https://dl.dropboxusercontent.com/s/7mrz85gl29eiiks/logo.png', 90],
