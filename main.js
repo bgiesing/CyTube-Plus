@@ -145,11 +145,11 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 Favicon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
 
-MiniLogo_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
+MiniLogo_URL = 'https://pravox.net/img/logos/pravox-variety-logo.png';
 
-ChannelName_Caption = 'CyTube Plus';
+ChannelName_Caption = 'Pravox VARIETY';
 
-HeaderDropMenu_Title = 'Synch';
+HeaderDropMenu_Title = 'About';
 
 MOTDAutoLogo_Mode = 1;
 
@@ -161,7 +161,7 @@ AttentionBar_URL = '';
 
 ChannelAnnouncement_Title = 'Administration Message';
 
-TitleIcon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
+TitleIcon_URL = 'https://pravox.net/img/logos/pravox-variety-logo.png';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
@@ -186,18 +186,16 @@ ExternalScript_URL = '';
 	/* -- arrays -- */
 
 HeaderDropMenu_Array = [
-['CyTube Servers', ''],
-['Calzoneman CyTube', 'http://cytu.be/'],
+['Pravox Networks', ''],
+['Home', 'http://pravox.net'],
 ['6irc Synchtube', 'http://synchtube.6irc.net/'],
-['CyTube Stuff', ''],
-['Source code', 'https://github.com/calzoneman/sync'],
-['FAQ', 'https://github.com/calzoneman/sync/wiki/Beginner%27s-Guide-and-FAQ'],
-['IRC', 'http://webchat.6irc.net/?channels=chat,synchtube'],
+['Powered by:', ''],
+['CyTube', 'https://github.com/calzoneman/sync'],
 ['CyTube Plus', 'https://github.com/zimny-lech/CyTube-Plus'],
 ];
 
 MOTDAutoLogo_Array = [
-'https://dl.dropboxusercontent.com/s/7mrz85gl29eiiks/logo.png',
+'https://pravox.net/img/logos/pravox-variety-logo.png',
 ];
 
 MOTDTabs_Array = [
