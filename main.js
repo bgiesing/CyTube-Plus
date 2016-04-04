@@ -143,9 +143,9 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 	/* -- single variables -- */
 
-Favicon_URL = 'http://i.imgur.com/ylg3j2e.png';
+Favicon_URL = 'http://i.imgur.com/UGTUYfP.png';
 
-MiniLogo_URL = 'http://i.imgur.com/ylg3j2e.png';
+MiniLogo_URL = 'http://i.imgur.com/UGTUYfP.png';
 
 ChannelName_Caption = 'Pravox VARIETY';
 
@@ -161,7 +161,7 @@ AttentionBar_URL = '';
 
 ChannelAnnouncement_Title = 'Administration Message';
 
-TitleIcon_URL = 'http://i.imgur.com/ylg3j2e.png';
+TitleIcon_URL = 'http://i.imgur.com/UGTUYfP.png';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
