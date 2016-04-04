@@ -112,7 +112,7 @@ UI_CustomCaptions = 1;		// [&] custom captions for add, refresh, voteskip button
 UI_PlayerOptions = 1;		// [&] additional player options
 UI_TransformationBtns = 1;	// player transformation buttons
 UI_ChannelDatabase = 1;		// [&] box with embed additional media database
-UI_ChannelGalleries = 1;	// [&] box with embed galleries
+UI_ChannelGalleries = 0;	// [&] box with embed galleries
 UI_DisplayModeSel = 1;		// selector with player display modes
 UI_ChannelTheme = 1;		// [&] additional default channel theme
 UI_EmbeddingMedia = 1;		// [&] possibility to embedding (displaying) images and .webm videos on the chat
@@ -147,7 +147,7 @@ Favicon_URL = '//i.imgur.com/UGTUYfP.png';
 
 MiniLogo_URL = '//i.imgur.com/UGTUYfP.png';
 
-ChannelName_Caption = 'Pravox VARIETY';
+ChannelName_Caption = 'Pravox Variety';
 
 HeaderDropMenu_Title = 'About';
 
@@ -188,7 +188,6 @@ ExternalScript_URL = '';
 HeaderDropMenu_Array = [
 ['Pravox Networks', ''],
 ['Home', 'https://pravox.net'],
-['6irc Synchtube', 'http://synchtube.6irc.net/'],
 ['Powered by:', ''],
 ['CyTube', 'https://github.com/calzoneman/sync'],
 ['CyTube Plus', 'https://github.com/zimny-lech/CyTube-Plus'],
@@ -286,19 +285,13 @@ CustomRightFooter_HTML = '';
 
 ChannelThemeURL = 'https://dl.dropboxusercontent.com/s/l1qoep4su4xn5qz/chinska.css';
 
-//ThemesCSS = [
-//['Kobato', 'https://dl.dropboxusercontent.com/s/1r3twlb0loipybw/kobato.css'],
-//['Celadon', 'https://dl.dropboxusercontent.com/s/iwarwhhph1ti2ek/celadon.css'],
-//];
+ThemesCSS = [
+['Kobato', 'https://dl.dropboxusercontent.com/s/1r3twlb0loipybw/kobato.css'],
+['Celadon', 'https://dl.dropboxusercontent.com/s/iwarwhhph1ti2ek/celadon.css'],
+];
 
 TopUserLogo = [
-['cytube plus', 'https://dl.dropboxusercontent.com/s/7mrz85gl29eiiks/logo.png', 90],
-['anime girl', 'https://dl.dropboxusercontent.com/s/knxd7dpup1u8lm3/azuki.png', 200],
-['cosmos', 'https://dl.dropboxusercontent.com/s/v6dx49yqk5e3i2d/cosmos.jpg', 200],
-['disco ball', 'https://dl.dropboxusercontent.com/s/ahpfm25pglc8j01/disco.jpg', 162],
-['japanese landscape', 'https://dl.dropboxusercontent.com/s/llylt832evxrp6e/japan.jpg', 200],
-['korean collage', 'https://dl.dropboxusercontent.com/s/qud9adhs183dq30/korea.jpg', 160],
-['my little pony', 'https://dl.dropboxusercontent.com/s/r4ozo8oj8lmerec/mlp.jpg', 190],
+['pravox', '//i.imgur.com/SCVQe1K.png', 90],
 ];
 
 EmptyCornerBackground = [
@@ -405,7 +398,7 @@ ChannelDatabase=[
 ['http://www.youtube.com/watch?v=jehMXrY1q5I', 'Yui Makino - Yume No Tsubasa'],
 ];
 
-ChannelDatabase_URL='';
+ChannelDatabase_URL='//rawgit.com/bgiesing/CyTube-Plus/pravox-variety/external-db.js';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
