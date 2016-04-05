@@ -52,7 +52,7 @@ UI_MOTDTabs = 1;		// [&] switchable MOTD tabs application for homepage-like chan
 UI_MOTDDelete = 1;		// deleting previous MOTD after accepting/loading script
 UI_RulesBtn = 1;		// [&] button displaying channel rules
 UI_AttentionBar = 0;		// [&] imageboard-style attention bar (requires external application)
-UI_ChannelAnnouncement = 0;	// [&] additional custom channel announcement
+UI_ChannelAnnouncement = 1;	// [&] additional custom channel announcement
 UI_FullTitleBar = 1;		// full-width video title bar
 UI_ProgressBar = 1;		// YouTube/Dailymotion progress bar
 				// [ REQUIRE: UI_FullTitleBar enabled ]
