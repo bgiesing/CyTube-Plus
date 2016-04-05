@@ -162,7 +162,7 @@ HeaderDropMenu_Array = [
 ['Pravox Networks', ''],
 ['Home', 'https://pravox.net'],
 ['News', 'https://pravox.net/news'],
-['News', 'https://twitter.com/PravoxNetworks'],
+['Twitter', 'https://twitter.com/PravoxNetworks'],
 ['Powered by:', ''],
 ['CyTube', 'https://github.com/calzoneman/sync'],
 ['CyTube Plus', 'https://github.com/zimny-lech/CyTube-Plus'],
@@ -240,7 +240,7 @@ MOTDTabs_CSS = {
 
 RulesBtn_HTML = '<ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.</li><li>You like Passwords or want more Features? Click <strong>Account -&gt; Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.</li><li>What video/music sites are supported? <a href="https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported">See here</a></li><li>Do not spam flood the chat or queue.</li><li>Be friendly</li></ul>';
 
-ChannelAnnouncement_HTML = '<h1>Updates for 2016-04-05</h1><h2>Channel Database</h2><p>The Video Database has been updated with tons of music! This includes:</p><ul><li>MandoPony Music</li><li>V/T/S - Voice/Text/Song</li><li>Star Shop by Chongo</li></ul><h2 id="design">Design</h2><ul><li>Added some color to the header</li><li>Made site icon slightly bigger</li><li>Make the giant logo smaller</li></ul><h2 id="other">Other</h2><ul><li>Fix Contact link</li></ul>';
+ChannelAnnouncement_HTML = '<h1>Updates for 2016-04-05</h1><h2>Channel Database</h2><p>The Video Database has been updated with tons of music! This includes:</p><ul><li>MandoPony Music</li><li>V/T/S - Voice/Text/Song</li><li>Star Shop by Chongo</li><li>UNDERTALE: The Underground Radio by DM DOKURO</li></ul><h2 id="design">Design</h2><ul><li>Added some color to the header</li><li>Made site icon slightly bigger</li><li>Make the giant logo smaller</li></ul><h2 id="other">Other</h2><ul><li>Fix Contact link</li></ul>';
 
 EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"], a[href$=".JPG"], a[href$=".png"], a[href$=".tiff"], a[href$=".gif"]';
 
