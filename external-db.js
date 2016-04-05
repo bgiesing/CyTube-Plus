@@ -7,6 +7,11 @@ ChannelDatabase=[
 ['https://www.youtube.com/watch?v=y7-QQNM00JA', 'Top Ten Disney Films'],
 ['https://www.youtube.com/watch?v=NQkxNw7zgP4', 'Top Ten Animated Villains'],
 ['https://www.youtube.com/watch?v=Cl2KAs5LIe0', 'Top Ten Favorite Songs'],
+['', 'UNDER THE TALE: A UNDERTALE Remix Album'],
+['https://www.youtube.com/watch?v=5fkKJ_XzBFA', 'Battle Against A Sprite Hero (Undertale Remix)'],
+['https://www.youtube.com/watch?v=2vh0uZKUN5Y', 'Bone Cold (Undertale Remix)'],
+['https://www.youtube.com/watch?v=etoe5hoahy4', 'SAVE The Fallen (Undertale Remix)'],
+['https://www.youtube.com/watch?v=TP-_1iyD8LE', 'MEGADUNKED (Undertale Remix)'],
 ];
 
 /* ----- CREATING DATABASE LAYOUT - DO NOT REMOVE ----- */
