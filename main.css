@@ -1,6 +1,6 @@
 /* ----- Smoothing default CyTube CSS (works without JS) ----- */
-.nav-collapsible {background-color: rgb(0, 150, 136);}
-.navbar-header {background-color: rgb(255, 152, 0);}
+.navbar-collapse {background-color: rgb(0, 150, 136);} !important
+.navbar-header {background-color: rgb(255, 152, 0);} !important
 	/* -- body -- */
 
 body {overflow-x:hidden}
@@ -68,6 +68,7 @@ body {overflow-x:hidden}
 #chanavatar {margin-right:10px}
 .navbar-brand>img {
  display: inline;
+ margin-top: -7px;
 }
 
 	/* -- azuki row (user top logo) -- */
