@@ -56,6 +56,15 @@ ChannelDatabase=[
 ['http://youtube.com/watch?v=lW9AQ3ftg3U', '17 - Descending Star'],
 ['http://youtube.com/watch?v=KA_zkTYXE_g', '18 - Dedicated Star'],
 ['http://youtube.com/watch?v=7JpK1jpQxMA', 'Bonus - The One With The Bassline'],
+['', 'UNDERTALE: The Underground Radio by DM DOKURO'],
+['http://youtube.com/watch?v=Xg2eYFNSPBU', 'DM DOKURO - BONESCUFFLE (Undertale remix)'],
+['http://youtube.com/watch?v=n-FUV3Aleug', '[MASSIVE SPOILERS] DM DOKURO - SAVE (Undertale Remix 2)'],
+['http://youtube.com/watch?v=evCV4gNr4Gk', '[MASSIVE SPOILER MILESTONE] DM DOKURO - SAVE (Encore)'],
+['http://youtube.com/watch?v=baV-6-oHnA8', '[Neutral Spoilers] DM DOKURO - g a r d e n (Undertale Remix 3)'],
+['http://youtube.com/watch?v=lsJdj92ZlXo', 'DM DOKURO - Sign Language (Undertale Remix... 4?)'],
+['http://youtube.com/watch?v=CEI_jZbLLj4', 'DM DOKURO - Dapper Mannequin Bakery (Undertale Remix 5)'],
+['http://youtube.com/watch?v=495MUfrcbMc', '[Genocide Spoilers] DM DOKURO - Reality Check Through The Skull (Undertale Remix 6)'],
+['http://youtube.com/watch?v=LUcovUfA9So', '[Neutral Spoilers] DM vs. POCKET - uNDeRWoRLD MoNaRCHy (FINAL Undertale Remix)'],
 ['', 'Various Music'],
 ['http://youtube.com/watch?v=8En-59HDMrA', 'In The Hall Of The Mountain King (Dubstep Remix) - Edvard Grieg (DUBGENIE)'],
 ['http://youtube.com/watch?v=46QX2hTGwPs', 'Shawn Wasabi - Pizza Rolls (metal x EDM mashup)'],
@@ -74,6 +83,9 @@ ChannelDatabase=[
 ['http://youtube.com/watch?v=Wv24uMoGUZA', 'Massive Attack - Teardrop (The Chemical Brothers Remix) (Radio Rip)'],
 ['http://youtube.com/watch?v=BsGnMpSVixg', 'Calvin Harris - Outside ft. Ellie Goulding (Savagez Remix)'],
 ['http://youtube.com/watch?v=_IrQHeDcMi8', 'LunchMoney Lewis - Bills (Official Video)'],
+['https://soundcloud.com/extremesomething/slow-down-deadmau5', 'Slow Down - Deadmau5: Full Mix Pre-Release'],
+['https://soundcloud.com/dragonxvi/bones-to-pick-undertale-boss-medley', 'Bones To Pick (Undertale Boss Medley)'],
+['https://soundcloud.com/boovox/jacksepticeye-25k', 'BooVox - JackSepticEye (25k subs REMIX)'],
 ];
 
 /* ----- CREATING DATABASE LAYOUT - DO NOT REMOVE ----- */
