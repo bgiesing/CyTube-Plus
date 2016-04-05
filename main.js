@@ -367,7 +367,7 @@ ChannelDatabase=[
 ['http://www.youtube.com/watch?v=jehMXrY1q5I', 'Yui Makino - Yume No Tsubasa'],
 ];
 
-ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160405-1/external-db.js';
+ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160405-9/external-db.js';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
