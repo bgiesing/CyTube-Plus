@@ -28,33 +28,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// INSTALLATION NOTES:
-
-// 0. Choose simple or custom installation (simple one has ready-to-use library with limited functionality).
-// SIMPLE INSTALLATION: use 'https://dl.dropboxusercontent.com/s/2uks4pif8mx2qab/main-ready.js' as default URL
-//   go to -> 3.
-// CUSTOM INSTALLATION: go to -> 1.
-
-// 1. Configure this library according to your wishes (see configuration sections below).
-// 2. Save customized library to your file hosting (e.g. Dropbox) or to your own server.
-// WARNING! You must be able to access .js file directly (browser's URL must contain .js extension, not .php etc.).
-// WARNING FOR DROPBOX USERS! Always use 'dl.dropboxusercontent.com' URL instead of 'www.dropbox.com' URL.
-
-// 3. Enter your JS file location into 'External Javascript' field in 'Channel Settings' modal window.
-// 4. Enter library CSS file location into 'External CSS' field in 'Channel Settings' modal window.
-// NOTE: use default 'https://dl.dropboxusercontent.com/s/180y5d6mvlu8kd8/main.css' URL,
-//   or copy it to your own location.
-// 5. Congratulations,  your have just installed CyTube Plus!
-
-// Need detailed options explanations? Go to https://github.com/zimny-lech/CyTube-Plus/wiki/FAQ
-// Problems? Something doesn't work? Go to https://github.com/zimny-lech/CyTube-Plus/wiki/Troubleshooting
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// CONFIGURE BELOW BEFORE INSTALLING IF YOU WANT TO CUSTOMIZE THIS LIBRARY
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 /* ----- STARTING CONFIGURATION - USER INTERFACE (UI) ----- */
 
 // CONFIGURATION NOTES:
@@ -143,9 +116,9 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 	/* -- single variables -- */
 
-Favicon_URL = '//i.imgur.com/UGTUYfP.png';
+Favicon_URL = '//i.imgur.com/v5F81Yn.png';
 
-MiniLogo_URL = '//i.imgur.com/UGTUYfP.png';
+MiniLogo_URL = '//i.imgur.com/v5F81Yn.png';
 
 ChannelName_Caption = 'Variety';
 
@@ -161,7 +134,7 @@ AttentionBar_URL = '';
 
 ChannelAnnouncement_Title = 'Announcement';
 
-TitleIcon_URL = '//i.imgur.com/UGTUYfP.png';
+TitleIcon_URL = '//i.imgur.com/v5F81Yn.png';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
@@ -188,19 +161,21 @@ ExternalScript_URL = '';
 HeaderDropMenu_Array = [
 ['Pravox Networks', ''],
 ['Home', 'https://pravox.net'],
+['News', 'https://pravox.net/news'],
+['News', 'https://twitter.com/PravoxNetworks'],
 ['Powered by:', ''],
 ['CyTube', 'https://github.com/calzoneman/sync'],
 ['CyTube Plus', 'https://github.com/zimny-lech/CyTube-Plus'],
 ];
 
 MOTDAutoLogo_Array = [
-'//pravox.net/img/logos/pravox-variety-logo.png',
+'//i.imgur.com/oHBJ7W2.png',
 ];
 
 MOTDTabs_Array = [
 ['Home',	'<h1>Welcome!</h1><p>Are you sick of TV that\'s the same basic crap and costs a fortune? Well fear no more!</p><h3>Introducing Pravox VARIETY!</h3><p>The online-only TV network powered by the fans who watch it!</p><ul><li>You can choose the video!</li><li>You can chat!</li><li>You can vote!</li><li>You can customize the player!</li></ul><p>All this for the low price of FREE!</p>'],
 ['Schedule',	'<h1>Schedule</h1><p>Even though any thing can be played at any time, we like to give certain days "themes" for the types of videos allowed!</p><pre><code>NOTE: Even though these themes are in place, all videos are allowed always! We would prefer the majority of videos to match the theme if possible though!</code></pre><ul><li><strong>Sunday:</strong> #ScrewySaturday (The more random, the better!)</li><li><strong>Monday:</strong> #MondayFunday (Comedy)</li><li><strong>Tuesday:</strong> #TuneTuesday (Music)</li><li><strong>Wednesday:</strong> TBD</li><li><strong>Thursday:</strong> #TechieThursday (Technology/Geek/Gaming)</li><li><strong>Friday:</strong> #FandomFriday (Creations/Theories for Gaming, TV, Movie, Book, etc. Fandoms)</li><li><strong>Saturday:</strong> #SaturdayProject (DIY/Cooking/Makers)</li></ul><h2>Events</h2><p>Outside the themes, we may also hold events. During these, only the mods will be allowed to control the playlist. Most will be announced ahead of time.</p><p>Events could include these (and much more):</p><ul><li>Movie Voted by You</li><li>Important Live Stream</li><li>Blackout (aka going completely dark to protest something)</li><li>Creator Spotlight</li></ul>'],
-['Contact',	'<h1>Contact</h1><p>You can email me at <a href="mailto:me@brandongiesing.com">me[at]]brandongiesing.com</a>.</p>'],
+['Contact',	'<h1>Contact</h1><p>You can email me at <a href="mailto:me@brandongiesing.com">me[at]brandongiesing.com</a>.</p>'],
 ];
 
 RandomQuotes_Array = [
@@ -224,6 +199,7 @@ Memes_Array = [
 
 UserMarks_Array = {
 'ZimnyLech':	'<img src="https://dl.dropboxusercontent.com/s/89gv8fvyr49vnev/kobato-icon-small.jpg" height="25">', 
+'bgiesing':	'<img src="//i.imgur.com/v5F81Yn.png" height="25">', 
 'calzoneman':	'♠',
 }
 
@@ -262,9 +238,9 @@ MOTDTabs_CSS = {
 'background-color':	'black',
 }
 
-RulesBtn_HTML = '<h1>Rules</h1><ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.</li><li>You like Passwords or want more Features? Click <strong>Account -&gt; Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.</li><li>What video/music sites are supported? <a href="https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported">See here</a></li><li>Do not spam flood the chat or queue.</li><li>Be friendly</li></ul>';
+RulesBtn_HTML = '<ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.</li><li>You like Passwords or want more Features? Click <strong>Account -&gt; Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.</li><li>What video/music sites are supported? <a href="https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported">See here</a></li><li>Do not spam flood the chat or queue.</li><li>Be friendly</li></ul>';
 
-ChannelAnnouncement_HTML = 'This channel has been created with <a href="https://github.com/zimny-lech/CyTube-Plus" target="_blank">CyTube Plus 4.5</a>.';
+ChannelAnnouncement_HTML = '<h1>Updates for 2016-04-05</h1><h2>Channel Database</h2><p>The Video Database has been updated with tons of music! This includes:</p><ul><li>MandoPony Music</li><li>V/T/S - Voice/Text/Song</li><li>Star Shop by Chongo</li></ul><h2 id="design">Design</h2><ul><li>Added some color to the header</li><li>Made site icon slightly bigger</li><li>Make the giant logo smaller</li></ul><h2 id="other">Other</h2><ul><li>Fix Contact link</li></ul>';
 
 EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"], a[href$=".JPG"], a[href$=".png"], a[href$=".tiff"], a[href$=".gif"]';
 
@@ -290,7 +266,7 @@ ThemesCSS = [
 ];
 
 TopUserLogo = [
-['pravox', '//i.imgur.com/SCVQe1K.png', 90],
+['pravox', '//i.imgur.com/SCVQe1K.png', 120],
 ];
 
 EmptyCornerBackground = [
@@ -391,7 +367,7 @@ ChannelDatabase=[
 ['http://www.youtube.com/watch?v=jehMXrY1q5I', 'Yui Makino - Yume No Tsubasa'],
 ];
 
-ChannelDatabase_URL='//rawgit.com/bgiesing/CyTube-Plus/pravox-variety/external-db.js';
+ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160405-1/external-db.js';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
