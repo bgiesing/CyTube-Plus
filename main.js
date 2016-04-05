@@ -120,7 +120,7 @@ Favicon_URL = '//i.imgur.com/v5F81Yn.png';
 
 MiniLogo_URL = '//i.imgur.com/jUoIXEc.png';
 
-ChannelName_Caption = '';
+ChannelName_Caption = ' ';
 
 HeaderDropMenu_Title = 'About';
 
