@@ -390,7 +390,7 @@ if (UI_DefaultSynchtube=="1") {
 	defplayer="right"; defuserlist="left"; defqueue="right";
 }
 
-var DEFTHEME = (UI_ChannelTheme=="1" && ChannelThemeURL!="") ? ChannelThemeURL : "/css/themes/slate.css";
+var DEFTHEME = (UI_ChannelTheme=="1" && ChannelThemeURL!="") ? ChannelThemeURL : "/css/themes/modern.css";
 
 var USERCONFIG = {
 	"player":getOrDefault(CHANNEL.name+"_player", defplayer),
@@ -1349,7 +1349,7 @@ function setUserCSS() {
 	  + '#drinkcount {margin:0px}\n';
 
 	$("head").append('<style id="chanexternalcss-fix" type="text/css">'+cssfix+'</style>');
-	$("#usertheme").attr('href', '/css/themes/slate.css');
+	$("#usertheme").attr('href', '/css/themes/modern.css');
 	$("#usertheme-fix").remove();
 	if (USERTHEME.indexOf("/css/themes/")>-1) {
 		$("#usertheme").attr('href', USERTHEME);
@@ -2931,6 +2931,7 @@ themesel = $('<select id="theme-sel" class="form-control" />')
   .append('<option value="/css/themes/light.css"># Light</option>')
   .append('<option value="/css/themes/bootstrap-theme.min.css"># Bootstrap</option>')
   .append('<option value="/css/themes/slate.css"># Slate</option>')
+  .append('<option value="/css/themes/modern.css"># Modern</option>')
   .append('<option value="/css/themes/cyborg.css"># Cyborg</option>')
   .appendTo(themewrap)
   .on("change", function() {
