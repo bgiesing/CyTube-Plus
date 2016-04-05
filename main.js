@@ -79,7 +79,7 @@ UI_MOTDTabs = 1;		// [&] switchable MOTD tabs application for homepage-like chan
 UI_MOTDDelete = 1;		// deleting previous MOTD after accepting/loading script
 UI_RulesBtn = 1;		// [&] button displaying channel rules
 UI_AttentionBar = 0;		// [&] imageboard-style attention bar (requires external application)
-UI_ChannelAnnouncement = 1;	// [&] additional custom channel announcement
+UI_ChannelAnnouncement = 0;	// [&] additional custom channel announcement
 UI_FullTitleBar = 1;		// full-width video title bar
 UI_ProgressBar = 1;		// YouTube/Dailymotion progress bar
 				// [ REQUIRE: UI_FullTitleBar enabled ]
@@ -147,7 +147,7 @@ Favicon_URL = '//i.imgur.com/UGTUYfP.png';
 
 MiniLogo_URL = '//i.imgur.com/UGTUYfP.png';
 
-ChannelName_Caption = 'Pravox Variety';
+ChannelName_Caption = 'Variety';
 
 HeaderDropMenu_Title = 'About';
 
@@ -159,7 +159,7 @@ RulesBtn_Caption = 'Read Channel Rules';
 
 AttentionBar_URL = '';
 
-ChannelAnnouncement_Title = 'Administration Message';
+ChannelAnnouncement_Title = 'Announcement';
 
 TitleIcon_URL = '//i.imgur.com/UGTUYfP.png';
 
@@ -198,10 +198,9 @@ MOTDAutoLogo_Array = [
 ];
 
 MOTDTabs_Array = [
-['Home',	'Welcome to our channel!'],
-['Playlist',	'Playlist tab.<br /><br />We watched this, that and this.'],
-['Schedule',	'Schedule:<br /><br /><ul><li>Monday: ...</li><li>Tuesday: ...</li><li>Wendesday: ...</li><li>Thursday: ...</li><li>Friday: ...</li><li>Saturday: ...</li><li>Sunday: ...</li></ul>'],
-['Contact',	'Contact:<br /><br />Email - ...<br />Skype - ...'],
+['Home',	'<h1>Welcome!</h1><p>Are you sick of TV that's the same basic crap and costs a fortune? Well fear no more!</p><h3>Introducing Pravox VARIETY!</h3><p>The online-only TV network powered by the fans who watch it!</p><ul><li>You can choose the video!</li><li>You can chat!</li><li>You can vote!</li><li>You can customize the player!</li></ul><p>All this for the low price of FREE!</p>'],
+['Schedule',	'<h1>Schedule</h1><p>Even though any thing can be played at any time, we like to give certain days "themes" for the types of videos allowed!</p><pre><code>NOTE: Even though these themes are in place, all videos are allowed always! We would prefer the majority of videos to match the theme if possible though!</code></pre><ul><li><strong>Sunday:</strong> #ScrewySaturday (The more random, the better!)</li><li><strong>Monday:</strong> #MondayFunday (Comedy)</li><li><strong>Tuesday:</strong> #TuneTuesday (Music)</li><li><strong>Wednesday:</strong> TBD</li><li><strong>Thursday:</strong> #TechieThursday (Technology/Geek/Gaming)</li><li><strong>Friday:</strong> #FandomFriday (Creations/Theories for Gaming, TV, Movie, Book, etc. Fandoms)</li><li><strong>Saturday:</strong> #SaturdayProject (DIY/Cooking/Makers)</li></ul><h2>Events</h2><p>Outside the themes, we may also hold events. During these, only the mods will be allowed to control the playlist. Most will be announced ahead of time.</p><p>Events could include these (and much more):</p><ul><li>Movie Voted by You</li><li>Important Live Stream</li><li>Blackout (aka going completely dark to protest something)</li><li>Creator Spotlight</li></ul>'],
+['Contact',	'<h1>Contact</h1><p>You can email me at <a href="mailto:me@brandongiesing.com">me[at]brandongiesing.com</a>.</p>'],
 ];
 
 RandomQuotes_Array = [
@@ -263,7 +262,7 @@ MOTDTabs_CSS = {
 'background-color':	'black',
 }
 
-RulesBtn_HTML = '<ol><li>You want to write on the chat? Enter temporary nickname into <b>Guest Login</b> input and click enter.</li><li>You want to register a nick? Click <b>Account -> Profile</b> on the top of the channel, and fill the registration form. You don\'t need an email to register.</li><li>Do not spam.</li><li>You want to have this application on your own channel? Go to <a href="https://github.com/zimny-lech/CyTube-Plus">https://github.com/zimny-lech/CyTube-Plus</a>.</li></ol>';
+RulesBtn_HTML = '<h1>Rules</h1><ul><li>You hate passwords? No worries, You don't need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.</li><li>You like Passwords or want more Features? Click <strong>Account -&gt; Profile</strong> at the top of the page, and fill the registration form. You don't need an email to register.</li><li>What video/music sites are supported? <a href="https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported">See here</a></li><li>Do not spam flood the chat or queue.</li><li>Be friendly</li></ul>';
 
 ChannelAnnouncement_HTML = 'This channel has been created with <a href="https://github.com/zimny-lech/CyTube-Plus" target="_blank">CyTube Plus 4.5</a>.';
 
@@ -271,7 +270,7 @@ EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = 'This is custom footer.';
+CustomFooter_HTML = 'Copyright © 2016 Pravox Networks';
 
 CustomRightFooter_HTML = '';
 
@@ -295,13 +294,7 @@ TopUserLogo = [
 ];
 
 EmptyCornerBackground = [
-'https://dl.dropboxusercontent.com/s/xa32t6jh68lor6p/kirino.png',
-'https://dl.dropboxusercontent.com/s/xbz6j5vjqs34ihm/kobato0.png',
-'https://dl.dropboxusercontent.com/s/sj67s6u5vwe6i7s/kuroneko.png',
-'https://dl.dropboxusercontent.com/s/y9nnwvbrcbjm0fm/tsukiko.png',
-'https://dl.dropboxusercontent.com/s/7bigihfi4ho0d29/moetan.png',
-'https://dl.dropboxusercontent.com/s/0cg72kjsnt4p63g/azuki.png',
-'https://dl.dropboxusercontent.com/s/va28xkaoz1co3ah/sakura.png',
+'//i.imgur.com/SCVQe1K.png',
 ];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
