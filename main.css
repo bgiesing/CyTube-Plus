@@ -64,11 +64,8 @@ body {overflow-x:hidden}
 
 
 	/* -- channel avatar -- */
-
-#chanavatar {margin-right:10px}
 .navbar-brand>img {
- display: inline;
- margin-top: -15px;
+ margin-top: -7px;
 }
 
 	/* -- azuki row (user top logo) -- */
