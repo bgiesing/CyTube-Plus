@@ -44,7 +44,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 UI_DefaultSynchtube = 1;	// default old Synchtube layout (player and playlist on the left)
 UI_Favicon = 1;			// [&] channel favicon
 UI_MiniLogo = 1;		// [&] small channel logo/avatar in the top navbar
-UI_ChannelName = 1;		// [&] channel custom brand name
+UI_ChannelName = 0;		// [&] channel custom brand name
 UI_HeaderDropMenu = 1;		// [&] additional header dropdown menu
 UI_RemoveLayoutMenu = 1;	// removing 'Layout' menu from the header
 UI_MOTDAutoLogo = 1;		// [&] big channel logo inserted into MOTD
@@ -118,9 +118,9 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 Favicon_URL = '//i.imgur.com/v5F81Yn.png';
 
-MiniLogo_URL = '//i.imgur.com/v5F81Yn.png';
+MiniLogo_URL = '//i.imgur.com/jUoIXEc.png';
 
-ChannelName_Caption = 'Variety';
+ChannelName_Caption = '';
 
 HeaderDropMenu_Title = 'About';
 
@@ -367,7 +367,7 @@ ChannelDatabase=[
 ['http://www.youtube.com/watch?v=jehMXrY1q5I', 'Yui Makino - Yume No Tsubasa'],
 ];
 
-ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160405-9/external-db.js';
+ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160405-10/external-db.js';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
