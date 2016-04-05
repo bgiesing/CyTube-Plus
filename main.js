@@ -198,9 +198,9 @@ MOTDAutoLogo_Array = [
 ];
 
 MOTDTabs_Array = [
-['Home',	'<h1>Welcome!</h1><p>Are you sick of TV that's the same basic crap and costs a fortune? Well fear no more!</p><h3>Introducing Pravox VARIETY!</h3><p>The online-only TV network powered by the fans who watch it!</p><ul><li>You can choose the video!</li><li>You can chat!</li><li>You can vote!</li><li>You can customize the player!</li></ul><p>All this for the low price of FREE!</p>'],
+['Home',	'<h1>Welcome!</h1><p>Are you sick of TV that\'s the same basic crap and costs a fortune? Well fear no more!</p><h3>Introducing Pravox VARIETY!</h3><p>The online-only TV network powered by the fans who watch it!</p><ul><li>You can choose the video!</li><li>You can chat!</li><li>You can vote!</li><li>You can customize the player!</li></ul><p>All this for the low price of FREE!</p>'],
 ['Schedule',	'<h1>Schedule</h1><p>Even though any thing can be played at any time, we like to give certain days "themes" for the types of videos allowed!</p><pre><code>NOTE: Even though these themes are in place, all videos are allowed always! We would prefer the majority of videos to match the theme if possible though!</code></pre><ul><li><strong>Sunday:</strong> #ScrewySaturday (The more random, the better!)</li><li><strong>Monday:</strong> #MondayFunday (Comedy)</li><li><strong>Tuesday:</strong> #TuneTuesday (Music)</li><li><strong>Wednesday:</strong> TBD</li><li><strong>Thursday:</strong> #TechieThursday (Technology/Geek/Gaming)</li><li><strong>Friday:</strong> #FandomFriday (Creations/Theories for Gaming, TV, Movie, Book, etc. Fandoms)</li><li><strong>Saturday:</strong> #SaturdayProject (DIY/Cooking/Makers)</li></ul><h2>Events</h2><p>Outside the themes, we may also hold events. During these, only the mods will be allowed to control the playlist. Most will be announced ahead of time.</p><p>Events could include these (and much more):</p><ul><li>Movie Voted by You</li><li>Important Live Stream</li><li>Blackout (aka going completely dark to protest something)</li><li>Creator Spotlight</li></ul>'],
-['Contact',	'<h1>Contact</h1><p>You can email me at <a href="mailto:me@brandongiesing.com">me@brandongiesing.com</a>.</p>'],
+['Contact',	'<h1>Contact</h1><p>You can email me at <a href="mailto:me@brandongiesing.com">me[at]]brandongiesing.com</a>.</p>'],
 ];
 
 RandomQuotes_Array = [
