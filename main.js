@@ -262,7 +262,7 @@ MOTDTabs_CSS = {
 'background-color':	'black',
 }
 
-RulesBtn_HTML = '<h1>Rules</h1><ul><li>You hate passwords? No worries, You don't need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.</li><li>You like Passwords or want more Features? Click <strong>Account -&gt; Profile</strong> at the top of the page, and fill the registration form. You don't need an email to register.</li><li>What video/music sites are supported? <a href="https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported">See here</a></li><li>Do not spam flood the chat or queue.</li><li>Be friendly</li></ul>';
+RulesBtn_HTML = '<h1>Rules</h1><ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.</li><li>You like Passwords or want more Features? Click <strong>Account -&gt; Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.</li><li>What video/music sites are supported? <a href="https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported">See here</a></li><li>Do not spam flood the chat or queue.</li><li>Be friendly</li></ul>';
 
 ChannelAnnouncement_HTML = 'This channel has been created with <a href="https://github.com/zimny-lech/CyTube-Plus" target="_blank">CyTube Plus 4.5</a>.';
 
