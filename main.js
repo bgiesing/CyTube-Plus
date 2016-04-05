@@ -63,13 +63,13 @@ UI_JoinText = 1;		// [&] chat message after user joining
 UI_LeaveText = 1;		// [&] chat message after user leaving
 UI_UserCommands = 1;		// [&] additional commands in the chat window
 UI_UserMarks = 1;		// [&] special signs/avatars before every message for defined users
-UI_Squavatars = 1;		// automatic squavatars (2-colored square avatars) before every message
+UI_Squavatars = 0;		// automatic squavatars (2-colored square avatars) before every message
 				// [ REQUIRE: UI_UserMarks enabled ]
 UI_UsernameMark = 1;		// [&] custom mark after username (default ":")
-UI_MessagesSuffix = 1;		// [&] text added to random chat messages
+UI_MessagesSuffix = 0;		// [&] text added to random chat messages
 UI_CustomPingSound = 1;		// [&] custom sound for chat notifications
 UI_SoundFilters = 1;		// [&] chat sounds played after sending certain words
-UI_ChatSpeak = 1;		// text speaking after '!say' and '!mow' commands (english and polish)
+UI_ChatSpeak = 0;		// text speaking after '!say' and '!mow' commands (english and polish)
 UI_IndependentEmotes = 1;	// [&] additional settings-independent emotes
 UI_IndependentFilters = 1;	// [&] additional settings-independent filters
 UI_FontsBtn = 1;		// button displaying box with clickable chat fonts
@@ -83,7 +83,7 @@ UI_CommandsBtn = 1;		// button displaying modal window with chat commands help
 UI_ModPanel = 1;		// [&] panel with messages and help for moderators
 UI_CustomCaptions = 1;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
 UI_PlayerOptions = 1;		// [&] additional player options
-UI_TransformationBtns = 1;	// player transformation buttons
+UI_TransformationBtns = 0;	// player transformation buttons
 UI_ChannelDatabase = 1;		// [&] box with embed additional media database
 UI_ChannelGalleries = 0;	// [&] box with embed galleries
 UI_DisplayModeSel = 1;		// selector with player display modes
@@ -118,7 +118,7 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 Favicon_URL = '//i.imgur.com/v5F81Yn.png';
 
-MiniLogo_URL = '//i.imgur.com/jUoIXEc.png';
+MiniLogo_URL = '//i.imgur.com/7cGpxZ5.png';
 
 ChannelName_Caption = ' ';
 
@@ -169,11 +169,11 @@ HeaderDropMenu_Array = [
 ];
 
 MOTDAutoLogo_Array = [
-'//i.imgur.com/oHBJ7W2.png',
+'//i.imgur.com/sM7CDVn.png',
 ];
 
 MOTDTabs_Array = [
-['Home',	'<h1>Welcome!</h1><p>Are you sick of TV that\'s the same basic crap and costs a fortune? Well fear no more!</p><h3>Introducing Pravox VARIETY!</h3><p>The online-only TV network powered by the fans who watch it!</p><ul><li>You can choose the video!</li><li>You can chat!</li><li>You can vote!</li><li>You can customize the player!</li></ul><p>All this for the low price of FREE!</p>'],
+['Home',	'<h1>Welcome!</h1><p>Are you sick of TV that\'s the same basic crap and costs a fortune? Well fear no more!</p><h4>Introducing Pravox VARIETY!</h4><p>The online-only TV network powered by the fans who watch it!</p><ul><li>You can choose the video!</li><li>You can chat!</li><li>You can vote!</li><li>You can customize the player!</li></ul><p>All this for the low price of FREE!</p>'],
 ['Schedule',	'<h1>Schedule</h1><p>Even though any thing can be played at any time, we like to give certain days "themes" for the types of videos allowed!</p><pre><code>NOTE: Even though these themes are in place, all videos are allowed always! We would prefer the majority of videos to match the theme if possible though!</code></pre><ul><li><strong>Sunday:</strong> #ScrewySaturday (The more random, the better!)</li><li><strong>Monday:</strong> #MondayFunday (Comedy)</li><li><strong>Tuesday:</strong> #TuneTuesday (Music)</li><li><strong>Wednesday:</strong> TBD</li><li><strong>Thursday:</strong> #TechieThursday (Technology/Geek/Gaming)</li><li><strong>Friday:</strong> #FandomFriday (Creations/Theories for Gaming, TV, Movie, Book, etc. Fandoms)</li><li><strong>Saturday:</strong> #SaturdayProject (DIY/Cooking/Makers)</li></ul><h2>Events</h2><p>Outside the themes, we may also hold events. During these, only the mods will be allowed to control the playlist. Most will be announced ahead of time.</p><p>Events could include these (and much more):</p><ul><li>Movie Voted by You</li><li>Important Live Stream</li><li>Blackout (aka going completely dark to protest something)</li><li>Creator Spotlight</li></ul>'],
 ['Contact',	'<h1>Contact</h1><p>You can email me at <a href="mailto:me@brandongiesing.com">me[at]brandongiesing.com</a>.</p>'],
 ];
@@ -194,7 +194,7 @@ AskAnswers_Array = [
 ];
 
 Memes_Array = [
-'>', 'fb', 'omfg', 'u mad',
+'>', 'fb', 'omfg', 'u mad', 'o rly',
 ];
 
 UserMarks_Array = {
@@ -240,13 +240,13 @@ MOTDTabs_CSS = {
 
 RulesBtn_HTML = '<ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.</li><li>You like Passwords or want more Features? Click <strong>Account -&gt; Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.</li><li>What video/music sites are supported? <a href="https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported">See here</a></li><li>Do not spam flood the chat or queue.</li><li>Be friendly</li></ul>';
 
-ChannelAnnouncement_HTML = '<h1>Updates for 2016-04-05</h1><h2>Channel Database</h2><p>The Video Database has been updated with tons of music! This includes:</p><ul><li>MandoPony Music</li><li>V/T/S - Voice/Text/Song</li><li>Star Shop by Chongo</li><li>UNDERTALE: The Underground Radio by DM DOKURO</li></ul><h2 id="design">Design</h2><ul><li>Added some color to the header</li><li>Made site icon slightly bigger</li><li>Make the giant logo smaller</li></ul><h2 id="other">Other</h2><ul><li>Fix Contact link</li></ul>';
+ChannelAnnouncement_HTML = '<h1>Updates for 2016-04-05</h1><h2>Channel Database</h2><p>The Video Database has been updated with tons of music! This includes:</p><ul><li>MandoPony Music</li><li>V/T/S - Voice/Text/Song</li><li>Star Shop by Chongo</li><li>UNDERTALE: The Underground Radio by DM DOKURO</li></ul><h2 id="design">Design</h2><ul><li>Added some color to the header</li><li>Site icon is now our logo</li><li>Make the giant logo smaller and added Networks to it</li></ul><h2 id="other">Other</h2><ul><li>Fix Contact link</li></ul>';
 
 EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"], a[href$=".JPG"], a[href$=".png"], a[href$=".tiff"], a[href$=".gif"]';
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = 'Copyright © 2016 Pravox Networks';
+CustomFooter_HTML = '&copy; 2015<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script> <img src="http://i.imgur.com/73p5ijY.png" />';
 
 CustomRightFooter_HTML = '';
 
@@ -334,38 +334,7 @@ after:'<a href="https://pl.vichan.net/$1/src/$2" target="_blank">'
 // WARNING! Use ChannelDatabase_URL only if you want to use external database file, it overwrites database below.
 // If so, copy and configure 'https://raw.github.com/zimny-lech/CyTube-Plus/master/external-db.js' file.
 
-ChannelDatabase=[
-['', 'Japanese'],
-['http://www.youtube.com/watch?v=Q3y-80HBM6Q', 'An Cafe - Smile Ichiban Ii Onna'],
-['http://www.youtube.com/watch?v=nDqaTXqCN-Q', 'Babymetal - Ijime, Dame, Zettai'],
-['http://www.youtube.com/watch?v=aNlkiymcT1Q', 'Hinoi Team - Ike Ike'],
-['http://www.youtube.com/watch?v=JbQYK0mwLss', 'Morning Musume - Onna Ni Sachi Are'],
-['http://www.youtube.com/watch?v=VZKMaFR2mtU', 'Perfume - Fake It'],
-['http://www.youtube.com/watch?v=OYEHfWb1b4M', 'Shoko Nakagawa - Yuzurenai Negai'],
-['http://www.youtube.com/watch?v=jvhI576M6so', 'Yuu Kikkawa - Bokarisuto?'],
-['', 'Korean'],
-['http://www.youtube.com/watch?v=M-XXJJFZcXg', '4Minute - Heart To Heart (jap.)'],
-['http://www.youtube.com/watch?v=HchHZkkBOoE', 'As One - Catch Me Up'],
-['http://www.youtube.com/watch?v=UVeTI4v24M0', 'C-REAL - No No No No No'],
-['http://www.youtube.com/watch?v=04FdisNU3vw', 'Girl\'s Day - Oh! My God'],
-['http://www.youtube.com/watch?v=ysnUHXksic8', 'NS Yoon-G - Reason To Become A Witch'],
-['http://www.youtube.com/watch?v=mZUZdGCyLmw', 'Orange Caramel - Bangkok City'],
-['http://www.youtube.com/watch?v=r-MXLmNnarQ', 'TINY-G - Minimanimo'],
-['', 'Chinese'],
-['http://www.youtube.com/watch?v=Bi0tjyVfHOg', 'Amber Ann - Lian Ai Yingyuan Tuan'],
-['http://www.youtube.com/watch?v=dsU0Vu6aJhw', 'By2 - Love You Love You'],
-['http://www.youtube.com/watch?v=ovPhJim1EUc', 'Momo - One Hundred Girlfriends '],
-['http://www.youtube.com/watch?v=lxa2KqERBZE', 'S.H.E. - Shero'],
-['http://www.youtube.com/watch?v=jd2-Nf86jvA', 'Weather Girls - Koi No Tenki Yohou'],
-['', 'Anime songs'],
-['http://www.youtube.com/watch?v=fJ_DH7jzoxQ', 'Ai No Tenshi (Perfect Blue)'],
-['http://www.youtube.com/watch?v=ZNu_NV5PEM8', 'Chu☆ - Miko Miko Naasu - Ai No Teema'],
-['http://www.youtube.com/watch?v=l65_QPNZ_k8', 'Hommarju feat. MAKI - Yamato Nadeshiko Education (Seitokai Yakuindomo OP)'],
-['http://www.youtube.com/watch?v=dQbaJquz_jo', 'Kayo Sakata - Shoujo Q (Pani Poni Dash! OP)'],
-['http://www.youtube.com/watch?v=nLSFxQijz6U', 'Kotoko - Princess Bride'],
-['http://www.youtube.com/watch?v=QK-37CnYTpg', 'Princess Party Camelia OP'],
-['http://www.youtube.com/watch?v=jehMXrY1q5I', 'Yui Makino - Yume No Tsubasa'],
-];
+ChannelDatabase=[];
 
 ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160405-10/external-db.js';
 
