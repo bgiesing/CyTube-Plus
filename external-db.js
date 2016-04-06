@@ -133,6 +133,16 @@ ChannelDatabase=[
 ['http://youtube.com/watch?v=MIeOpQXMo-I', '[Bounce] - BasslineKicker - Wafture (djvoldex Remix) [Free Download]'],
 ['http://youtube.com/watch?v=GLhUIO-r_HE', '[Dubstep] - Will & Tim - Song Of Storms [Free Download]'],
 ['http://youtube.com/watch?v=5NE6U860AZ0', '[Happy Hardcore] - nanobii - Pineapple Spaceship [Free Download]'],
+['', 'Memes'],
+['https://www.youtube.com/watch?v=bxLnT5TJjow', 'MLG Mario'],
+['https://www.youtube.com/watch?v=-4jwzan3AyA', '149 Internet Memes in 300 Seconds'],
+['https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'Never Gonna Give You Up'],
+['https://www.youtube.com/watch?v=QH2-TGUlwu4', 'Nyan Cat'],
+['https://www.youtube.com/watch?v=Mh5LY4Mz15o', 'history of japan'],
+['https://www.youtube.com/watch?v=_j1-xQA_ufE', 'Diemon Dave Ninja School'],
+['https://www.youtube.com/watch?v=UlzoL-wQwio', 'i-Gun Traffic Rampage'],
+['https://www.youtube.com/watch?v=G-Wn48geCJ8', 'Racist Mario'],
+['https://www.youtube.com/watch?v=2HQaBWziYvY', 'Darude - Sandstorm'],
 ];
 
 /* ----- CREATING DATABASE LAYOUT - DO NOT REMOVE ----- */
