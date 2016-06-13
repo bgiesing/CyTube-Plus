@@ -1,7 +1,7 @@
 /* ----- DATABASE CONFIGURATION ----- */
 
 ChannelDatabase=[
-['','** Comedy **'],
+['','-- Comedy --'],
 ['https://www.youtube.com/watch?v=GlCmAC4MHek','Blank'],
 ['', 'Spagoots: Top Ten Face-Off'],
 ['https://www.youtube.com/watch?v=UUAKMHKCu2g', 'Top Ten Steven Universe Characters!'],
@@ -19,7 +19,7 @@ ChannelDatabase=[
 ['https://www.youtube.com/watch?v=G-Wn48geCJ8', 'Racist Mario'],
 ['https://www.youtube.com/watch?v=2HQaBWziYvY', 'Darude - Sandstorm'],
 ['http://youtube.com/watch?v=3NmeUMIialw', 'Dogsongs: A Dogsong Medley'],
-['','** Music **'],
+['','-- Music --'],
 ['https://www.youtube.com/watch?v=GlCmAC4MHek','Blank'],
 ['', 'UNDER THE TALE: A UNDERTALE Remix Album'],
 ['https://www.youtube.com/watch?v=5fkKJ_XzBFA', 'Battle Against A Sprite Hero'],
@@ -261,7 +261,7 @@ ChannelDatabase=[
 ['http://youtube.com/watch?v=MIeOpQXMo-I', 'BasslineKicker - Wafture (djvoldex Remix)'],
 ['http://youtube.com/watch?v=GLhUIO-r_HE', 'Will & Tim - Song Of Storms'],
 ['http://youtube.com/watch?v=5NE6U860AZ0', 'nanobii - Pineapple Spaceship'],
-['','** Gaming **'],
+['','-- Gaming --'],
 ['https://www.youtube.com/watch?v=GlCmAC4MHek','Blank'],
 ['', 'J and Sock Play Undertale'],
 ['www.youtube.com/watch?v=nMjNQ3AsjjU','Part 1 - Satin Ruins Everything: The Movie'],
