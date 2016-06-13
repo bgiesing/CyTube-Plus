@@ -238,9 +238,9 @@ MOTDTabs_CSS = {
 'background-color':	'black',
 }
 
-RulesBtn_HTML = '<ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.</li><li>You like Passwords or want more Features? Click <strong>Account -&gt; Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.</li><li>What video/music sites are supported? <a href="https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported">See here</a></li><li>Do not spam flood the chat or queue.</li><li>Be friendly</li></ul>';
+RulesBtn_HTML = '<ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.<li>You like Passwords or want more Features? Click <strong>Account -> Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.<li>What video/music sites are supported? <a href=https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported>See here</a><li>Do not spam flood the chat or queue.<li>Be friendly</ul>';
 
-ChannelAnnouncement_HTML = '<h1>Updates for 2016-04-05</h1><h2>Channel Database</h2><p>The Video Database has been updated with tons of music! This includes:</p><ul><li>MandoPony Music</li><li>V/T/S - Voice/Text/Song</li><li>Star Shop by Chongo</li><li>UNDERTALE: The Underground Radio by DM DOKURO</li></ul><h2 id="design">Design</h2><ul><li>Added some color to the header</li><li>Site icon is now our logo</li><li>Make the giant logo smaller and added Networks to it</li></ul><h2 id="other">Other</h2><ul><li>Fix Contact link</li></ul>';
+ChannelAnnouncement_HTML = '<h1>Updates for 2016-06-13</h1><h2 id=channel-database-updates>Channel Database</h2><p>The Channel Database has been updated with more content and has been cleaned up!<h3>Cleaned Up Changes</h3><ul><li>Added categories<li>Simplify Names</ul><h3>New content</h3><ul><li>J & Sock Play Undertale<li>The8BitDrummer Stream Highlights<li>Memes</ul><h3>Updated content</h3><ul><li>V/T/S<li>UNDERTALE: The Underground Radio<li>Memes</ul>';
 
 EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"], a[href$=".JPG"], a[href$=".png"], a[href$=".tiff"], a[href$=".gif"]';
 
@@ -336,7 +336,7 @@ after:'<a href="https://pl.vichan.net/$1/src/$2" target="_blank">'
 
 ChannelDatabase=[];
 
-ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160405-10/external-db.js';
+ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160613.r1/external-db.js';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
