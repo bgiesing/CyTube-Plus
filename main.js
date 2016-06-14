@@ -336,7 +336,7 @@ after:'<a href="https://pl.vichan.net/$1/src/$2" target="_blank">'
 
 ChannelDatabase=[];
 
-ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160613.r4/external-db.js';
+ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160614.r1/external-db.js';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
