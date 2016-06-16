@@ -46,7 +46,7 @@ UI_Favicon = 1;			// [&] channel favicon
 UI_MiniLogo = 1;		// [&] small channel logo/avatar in the top navbar
 UI_ChannelName = 1;		// [&] channel custom brand name
 UI_HeaderDropMenu = 1;		// [&] additional header dropdown menu
-UI_RemoveLayoutMenu = 1;	// removing 'Layout' menu from the header
+UI_RemoveLayoutMenu = 0;	// removing 'Layout' menu from the header
 UI_MOTDAutoLogo = 1;		// [&] big channel logo inserted into MOTD
 UI_MOTDTabs = 1;		// [&] switchable MOTD tabs application for homepage-like channel header
 UI_MOTDDelete = 1;		// deleting previous MOTD after accepting/loading script
@@ -80,16 +80,16 @@ UI_EmotesBtn = 1;		// button displaying box with clickable chat emotes
 UI_GroupEmotes = 1;		// [&] emotes panel pagination, display limited number of emotes at one time
 				// [ REQUIRE: UI_EmotesBtn enabled ]
 UI_CommandsBtn = 1;		// button displaying modal window with chat commands help
-UI_ModPanel = 1;		// [&] panel with messages and help for moderators
+UI_ModPanel = 0;		// [&] panel with messages and help for moderators
 UI_CustomCaptions = 1;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
 UI_PlayerOptions = 1;		// [&] additional player options
-UI_TransformationBtns = 0;	// player transformation buttons
+UI_TransformationBtns = 1;	// player transformation buttons
 UI_ChannelDatabase = 1;		// [&] box with embed additional media database
 UI_ChannelGalleries = 0;	// [&] box with embed galleries
 UI_DisplayModeSel = 1;		// selector with player display modes
 UI_ChannelTheme = 1;		// [&] additional default channel theme
 UI_EmbeddingMedia = 1;		// [&] possibility to embedding (displaying) images and .webm videos on the chat
-UI_MediaControls = 1;		// embedded video preloaded controls
+UI_MediaControls = 0;		// embedded video preloaded controls
 				// [ REQUIRE: UI_EmbeddingMedia enabled ]
 UI_QuickCommandsBtns = 1;	// buttons with '/clear' and '/afk' functions
 UI_VolumeBtns = 1;		// additional volume buttons for YouTube player
@@ -97,7 +97,7 @@ UI_EmptyCornerBackground = 1;	// [&] random background image for empty playlist 
 UI_ExtendedGetURLs = 1;		// extended 'Get URLs' function
 UI_DefaultNonTemp = 1;		// default unchecking "Add as temporary" checkbox after loading for registered users
 UI_CustomFooter = 1;		// [&] custom channel footer
-UI_CustomRightFooter = 0;	// [&] right-sided footer box
+UI_CustomRightFooter = 1;	// [&] right-sided footer box
 UI_UserStatistics = 1;		// displaying in the footer user visits number and current online time
 UI_ExternalScript = 0;		// [&] additional external script file
 UI_ChannelCache = 1;		// caching script emotes, additional media database and default gallery
@@ -116,9 +116,9 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 	/* -- single variables -- */
 
-Favicon_URL = '//i.imgur.com/v5F81Yn.png';
+Favicon_URL = '//i.lithi.io/KVCr.png';
 
-MiniLogo_URL = '//i.imgur.com/7cGpxZ5.png';
+MiniLogo_URL = '//i.lithi.io/Swqe.png';
 
 ChannelName_Caption = ' ';
 
@@ -134,7 +134,7 @@ AttentionBar_URL = '';
 
 ChannelAnnouncement_Title = 'Announcement';
 
-TitleIcon_URL = '//i.imgur.com/v5F81Yn.png';
+TitleIcon_URL = '//i.lithi.io/KVCr.png';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
@@ -169,7 +169,7 @@ HeaderDropMenu_Array = [
 ];
 
 MOTDAutoLogo_Array = [
-'//i.imgur.com/sM7CDVn.png',
+'//i.lithi.io/Hag1.png',
 ];
 
 MOTDTabs_Array = [
@@ -199,7 +199,7 @@ Memes_Array = [
 
 UserMarks_Array = {
 'ZimnyLech':	'<img src="https://dl.dropboxusercontent.com/s/89gv8fvyr49vnev/kobato-icon-small.jpg" height="25">', 
-'bgiesing':	'<img src="//i.imgur.com/v5F81Yn.png" height="25">', 
+'bgiesing':	'<img src="//i.lithi.io/KVCr.png" height="25">', 
 'calzoneman':	'♠',
 }
 
@@ -246,9 +246,9 @@ EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = '&copy; 2015<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script> <img src="http://i.imgur.com/73p5ijY.png" />';
+CustomFooter_HTML = '';
 
-CustomRightFooter_HTML = '';
+CustomRightFooter_HTML = '&copy; 2015<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script><img src="//i.lithi.io/pqN6.png"></img>';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -336,7 +336,7 @@ after:'<a href="https://pl.vichan.net/$1/src/$2" target="_blank">'
 
 ChannelDatabase=[];
 
-ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160614.r1/external-db.js';
+ChannelDatabase_URL='//cdn.rawgit.com/bgiesing/CyTube-Plus/20160616.r1/external-db.js';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
