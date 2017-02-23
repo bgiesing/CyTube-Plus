@@ -56,7 +56,7 @@ UI_ChannelAnnouncement = 0;	// [&] additional custom channel announcement
 UI_FullTitleBar = 1;		// full-width video title bar
 UI_ProgressBar = 1;		// YouTube/Dailymotion progress bar
 				// [ REQUIRE: UI_FullTitleBar enabled ]
-UI_TitleIcon = 1;		// [&] full-width title bar icon
+UI_TitleIcon = 0;		// [&] full-width title bar icon
 				// [ REQUIRE: UI_FullTitleBar enabled ]
 UI_TitleBarDescription = 1;	// [&] custom title bar description (default "Currently Playing:")
 UI_JoinText = 1;		// [&] chat message after user joining
