@@ -43,7 +43,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 UI_DefaultSynchtube = 1;	// default old Synchtube layout (player and playlist on the left)
 UI_Favicon = 1;			// [&] channel favicon
-UI_MiniLogo = 1;		// [&] small channel logo/avatar in the top navbar
+UI_MiniLogo = 0;		// [&] small channel logo/avatar in the top navbar
 UI_ChannelName = 1;		// [&] channel custom brand name
 UI_HeaderDropMenu = 1;		// [&] additional header dropdown menu
 UI_RemoveLayoutMenu = 0;	// removing 'Layout' menu from the header
@@ -52,7 +52,7 @@ UI_MOTDTabs = 1;		// [&] switchable MOTD tabs application for homepage-like chan
 UI_MOTDDelete = 1;		// deleting previous MOTD after accepting/loading script
 UI_RulesBtn = 1;		// [&] button displaying channel rules
 UI_AttentionBar = 0;		// [&] imageboard-style attention bar (requires external application)
-UI_ChannelAnnouncement = 1;	// [&] additional custom channel announcement
+UI_ChannelAnnouncement = 0;	// [&] additional custom channel announcement
 UI_FullTitleBar = 1;		// full-width video title bar
 UI_ProgressBar = 1;		// YouTube/Dailymotion progress bar
 				// [ REQUIRE: UI_FullTitleBar enabled ]
@@ -83,7 +83,7 @@ UI_CommandsBtn = 1;		// button displaying modal window with chat commands help
 UI_ModPanel = 0;		// [&] panel with messages and help for moderators
 UI_CustomCaptions = 1;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
 UI_PlayerOptions = 1;		// [&] additional player options
-UI_TransformationBtns = 1;	// player transformation buttons
+UI_TransformationBtns = 0;	// player transformation buttons
 UI_ChannelDatabase = 1;		// [&] box with embed additional media database
 UI_ChannelGalleries = 0;	// [&] box with embed galleries
 UI_DisplayModeSel = 1;		// selector with player display modes
@@ -116,11 +116,11 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 	/* -- single variables -- */
 
-Favicon_URL = '//i.lithi.io/KVCr.png';
+Favicon_URL = '//i.imgur.com/aQaernX.jpg';
 
-MiniLogo_URL = '//i.lithi.io/Swqe.png';
+MiniLogo_URL = '//i.imgur.com/aQaernX.jpg';
 
-ChannelName_Caption = ' ';
+ChannelName_Caption = 'Pravox VARIETY';
 
 HeaderDropMenu_Title = 'About';
 
@@ -160,8 +160,8 @@ ExternalScript_URL = '';
 
 HeaderDropMenu_Array = [
 ['Pravox Networks', ''],
-['Home', 'https://pravox.net'],
-['News', 'https://pravox.net/news'],
+['Submit', 'https://docs.google.com/forms/d/e/1FAIpQLSeWCviT7lHeYZoHm1oZ8iFnWBnTiKvfTQ4vf_phTP575hWY8w/viewform'],
+['Social', ''],
 ['Twitter', 'https://twitter.com/PravoxNetworks'],
 ['Powered by:', ''],
 ['CyTube', 'https://github.com/calzoneman/sync'],
@@ -169,13 +169,13 @@ HeaderDropMenu_Array = [
 ];
 
 MOTDAutoLogo_Array = [
-'//i.lithi.io/Hag1.png',
+'//i.imgur.com/pCVHrK5.png',
 ];
 
 MOTDTabs_Array = [
-['Home',	'<h1>Welcome!</h1><p>Are you sick of TV that\'s the same basic crap and costs a fortune? Well fear no more!</p><h4>Introducing Pravox VARIETY!</h4><p>The online-only TV network powered by the fans who watch it!</p><ul><li>You can choose the video!</li><li>You can chat!</li><li>You can vote!</li><li>You can customize the player!</li></ul><p>All this for the low price of FREE!</p>'],
-['Schedule',	'<h1>Schedule</h1><p>Even though any thing can be played at any time, we like to give certain days "themes" for the types of videos allowed!</p><pre><code>NOTE: Even though these themes are in place, all videos are allowed always! We would prefer the majority of videos to match the theme if possible though!</code></pre><ul><li><strong>Sunday:</strong> #ScrewySaturday (The more random, the better!)</li><li><strong>Monday:</strong> #MondayFunday (Comedy)</li><li><strong>Tuesday:</strong> #TuneTuesday (Music)</li><li><strong>Wednesday:</strong> TBD</li><li><strong>Thursday:</strong> #TechieThursday (Technology/Geek/Gaming)</li><li><strong>Friday:</strong> #FandomFriday (Creations/Theories for Gaming, TV, Movie, Book, etc. Fandoms)</li><li><strong>Saturday:</strong> #SaturdayProject (DIY/Cooking/Makers)</li></ul><h2>Events</h2><p>Outside the themes, we may also hold events. During these, only the mods will be allowed to control the playlist. Most will be announced ahead of time.</p><p>Events could include these (and much more):</p><ul><li>Movie Voted by You</li><li>Important Live Stream</li><li>Blackout (aka going completely dark to protest something)</li><li>Creator Spotlight</li></ul>'],
-['Contact',	'<h1>Contact</h1><p>You can email me at <a href="mailto:me@brandongiesing.com">me[at]brandongiesing.com</a>.</p>'],
+  ['Home','<h1>Welcome to the new Pravox VARIETY!</h1><p>Pravox VARIETY is the online-only TV Network that is crowdsourced by the fans who watch it!<ul><li>Videos are crowdsourced by the viewers! Submit by clicking the tab above and well add it to our database for future schedules.<li>Chat with other viewers in realtime!</ul>'],
+  ['Schedule','<h1>Schedule</h1><pre><code>NOTE: Times are all CST and approximate (for example, a video might slightly run over or under time)</code></pre><table><tr><td> <td>Sunday<td>Monday<td>Tuesday<td>Wednesday<td>Thursday<td>Saturday<tr><td>12am to 3am<td> <td> <td> <td> <td>Pravox PRESENTS: Lost Pause, LadyCroftPR, and The Anime Man<td> <tr><td>3am to 6am<td> <td> <td> <td> <td>Pravox TECH<td> <tr><td>6am to 9am<td> <td> <td> <td> <td>GTLive: Challenges<td> <tr><td>9am to 12pm<td> <td> <td> <td> <td>Pravox TUNE<td> <tr><td>12pm to 3pm<td> <td> <td> <td> <td>TWiT.tv: TNSS 92, KH 282, and more.<td> <tr><td>3pm to 6pm<td> <td> <td> <td> <td>Vinesauce Joel: Super Mario Run 64, TLoZ: Wario of Time, and more.<td> <tr><td>6pm to 9pm<td> <td> <td> <td> <td> <td> <tr><td>9pm to 12am<td> <td> <td> <td> <td> <td> </table>'],
+  ['Contact','<h1>Contact</h1><p>You can email me at <a href=mailto:me@brandongiesing.com>me[at]brandongiesing.com </a>.</p>'],
 ];
 
 RandomQuotes_Array = [
@@ -199,7 +199,7 @@ Memes_Array = [
 
 UserMarks_Array = {
 'ZimnyLech':	'<img src="https://dl.dropboxusercontent.com/s/89gv8fvyr49vnev/kobato-icon-small.jpg" height="25">', 
-'bgiesing':	'<img src="//i.lithi.io/KVCr.png" height="25">', 
+'bgiesing':	'<img src="//i.imgur.com/aQaernX.jpg" height="25">', 
 'calzoneman':	'♠',
 }
 
@@ -238,7 +238,7 @@ MOTDTabs_CSS = {
 'background-color':	'black',
 }
 
-RulesBtn_HTML = '<ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.<li>You like Passwords or want more Features? Click <strong>Account -> Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.<li>What video/music sites are supported? <a href=https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions#which-media-providers-are-supported>See here</a><li>Do not spam flood the chat or queue.<li>Be friendly</ul>';
+RulesBtn_HTML = '<ul><li>You hate passwords? No worries, You don\'t need to sign up to join in on the fun! Enter a temporary nickname into the <strong>Guest Login</strong> on the chatbox and tap enter on your keyboard.<li>You like Passwords or want more Features? Click <strong>Account -> Profile</strong> at the top of the page, and fill the registration form. You don\'t need an email to register.<li>Do not spam flood the chat or queue.<li>Be friendly</ul>';
 
 ChannelAnnouncement_HTML = '<h1>Updates for 2016-06-13</h1><h2 id=channel-database-updates>Channel Database</h2><p>The Channel Database has been updated with more content and has been cleaned up!<h3>Cleaned Up Changes</h3><ul><li>Added categories<li>Simplify Names</ul><h3>New content</h3><ul><li>J & Sock Play Undertale<li>The8BitDrummer Stream Highlights<li>Memes</ul><h3>Updated content</h3><ul><li>V/T/S<li>UNDERTALE: The Underground Radio<li>Memes</ul>';
 
@@ -266,11 +266,11 @@ ThemesCSS = [
 ];
 
 TopUserLogo = [
-['pravox', '//i.imgur.com/SCVQe1K.png', 120],
+['pravox', '//i.imgur.com/LuY8lc5.png', 120],
 ];
 
 EmptyCornerBackground = [
-'//i.imgur.com/SCVQe1K.png',
+'//i.imgur.com/LuY8lc5.png',
 ];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
