@@ -134,7 +134,7 @@ AttentionBar_URL = '';
 
 ChannelAnnouncement_Title = 'Announcement';
 
-TitleIcon_URL = '//i.lithi.io/KVCr.png';
+TitleIcon_URL = '//i.imgur.com/aQaernX.jpg';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
@@ -169,7 +169,7 @@ HeaderDropMenu_Array = [
 ];
 
 MOTDAutoLogo_Array = [
-'//i.imgur.com/pCVHrK5.png',
+'//i.imgur.com/jVBtYVv.png',
 ];
 
 MOTDTabs_Array = [
