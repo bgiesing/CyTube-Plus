@@ -73,7 +73,7 @@ body {overflow-x:hidden}
 #azukirow {
 	padding-left:5px; padding-right:5px; border-left:solid 2px transparent; border-right:solid 2px transparent;
 	background:transparent; background-repeat:no-repeat !important; background-position:center center !important;
-	margin:0px -8px; min-height:5px;
+	margin:0 -8px; min-height:5px;
 }
 
 	/* -- MOTD elements -- */
@@ -87,15 +87,15 @@ body {overflow-x:hidden}
 
 #rulesbtnwrap {text-align:center}
 #rules-btn {margin-top:10px; margin-bottom:5px}
-#rulespanel-outer {width:100%; padding:0px}
+#rulespanel-outer {width:100%; padding:0}
 #rulespanel {
-	max-width:700px; margin:0 auto; margin-top:0px; padding:4px; border:solid 2px white; text-align:left;
+	max-width:700px; margin:0 auto; margin-top:0; padding:4px; border:solid 2px white; text-align:left;
 	border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px;
 }
 
 	/* -- attention bar -- */
 
-#attbarrow-outer {padding:0px 5px}
+#attbarrow-outer {padding:0 5px}
 #attbar {height:22px; background-color:white}
 
 	/* -- full-sized title row -- */
@@ -103,32 +103,32 @@ body {overflow-x:hidden}
 #titlerow {
 	background-color:white;
 	background-image:linear-gradient(to right, #cccccc, #cccccc);
-	background-position:0px center;
-	background-size:0% 100%; background-repeat:no-repeat;
+	background-position:0 center;
+	background-size:0 100%; background-repeat:no-repeat;
 	margin:-5px -8px 5px;
 	border-radius:4px;
 }
 #titlerow-outer {
 	padding:3px 5px; text-align:center; font-size:16pt; color:black;
-	text-shadow: 0px 0px 10px #666666, 0px 0px 10px #666666;
+	text-shadow: 0 0 10px #666666, 0 0 10px #666666;
 }
 #titlerow #currenttitle {border:none; background:transparent}
 
 	/* -- media info bar -- */
 
 #mediainfo {
-	background:transparent; margin-bottom:0px; border-width: 1px 1px 0px; border-style:solid solid none;
-	border-color:#CCC #CCC -moz-use-text-color; border-radius:5px 5px 0px 0px;
+	background:transparent; margin-bottom:0; border-width: 1px 1px 0; border-style:solid solid none;
+	border-color:#CCC #CCC -moz-use-text-color; border-radius:5px 5px 0 0;
 }
 
 	/* -- player alert (if hidden video after loading) -- */
 
-#ytapiplayer .alert {text-align:left; margin:0px -15px}
+#ytapiplayer .alert {text-align:left; margin:0 -15px}
 
 	/* -- player covering layer -- */
 
 #coverpl {
-	position:absolute; left:5px; top:0px; background-color:white;
+	position:absolute; left:5px; top:0; background-color:white;
 	background-repeat:no-repeat; background-position:center center;
 }
 
@@ -151,13 +151,13 @@ body {overflow-x:hidden}
 .server-whisper + .squavatar {display:none}
 .globalmod {margin-right:2px}
 .embedimg {max-width:200px; max-height:300px}
-.embedvid {max-width:200px; max-height:300px; border:0px; vertical-align:middle}
+.embedvid {max-width:200px; max-height:300px; border:0; vertical-align:middle}
 
 	/* -- main fonts and emotes GUI layer -- */
 
-#chatpanel {margin-top:0px; margin-bottom:0px}
+#chatpanel {margin-top:0; margin-bottom:0}
 #fontspanel, #emotespanel {
-	text-align:center; max-width:700px; margin:0px auto 5px auto; border:solid 2px white; border-radius:6px
+	text-align:center; max-width:700px; margin:0 auto 5px auto; border:solid 2px white; border-radius:6px
 }
 .fluidpanel {max-width:1200px !important}
 
@@ -168,7 +168,7 @@ body {overflow-x:hidden}
 @media (max-width:767px) {
 	#unibtnwrap {margin:5px 25px 2px}
 }
-#fontsbtnwrap .btn, #unibtnwrap .btn {margin:0px 3px 3px 3px}
+#fontsbtnwrap .btn, #unibtnwrap .btn {margin:0 3px 3px 3px}
 
 	/* -- emotes panel -- */
 
@@ -195,7 +195,7 @@ body {overflow-x:hidden}
 	text-align:center;
 }
 .conf-cap {padding-top:9px}
-#mode-sel, #theme-sel, #gal-sel {width:80%; margin:0px auto}
+#mode-sel, #theme-sel, #gal-sel {width:80%; margin:0 auto}
 .theme-header {text-align:center; font-size:9pt; font-style:italic}
 #embed-help {cursor:pointer; margin-left:7px}
 
@@ -216,7 +216,7 @@ body {overflow-x:hidden}
 
 #leftfooter {font-size:10pt}
 div[id="leftfooter"] {text-align:center; margin-bottom:5px}
-#rightfooter {float:right; margin:0px 0px 15px 15px}
+#rightfooter {float:right; margin:0 0 15px 15px}
 
 
 /* ----- Additional JS classes ----- */
