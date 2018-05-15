@@ -3458,7 +3458,7 @@ if (ALTERCHATFORMAT) {
 						}
 					} else {
 						$(this).prop('muted', !$(this).prop('muted'));
-					};
+					}
 					return false;
 				}).on("dblclick", function() {
 					window.open(this.src, '_blank');
